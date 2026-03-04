@@ -1,7 +1,13 @@
+import CardExample from "./CardExample"
+
 const App = () => {
 
   return (
-    <div>はろう</div>
+    <div className="min-h-screen bg-gray-200">
+      <div className="bg-gray-300 p-4">
+        <CardExample />
+      </div>
+    </div>
   )
 }
 
